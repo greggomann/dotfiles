@@ -1,0 +1,13 @@
+alias v="vim"
+alias e="emacs -nw"
+alias em="emacs -mm"
+alias agi="sudo apt-get install"
+alias acs="apt-cache search"
+
+export PATH=$PATH:~/Dropbox/scripts:~/local/bin:/home/gmann/.cask/bin
+
+export PS1="\\u@\h \\w  "
+
+export ALTERNATE_EDITOR=""
+export EDITOR="emacsclient -t"
+export VISUAL="emacsclient -c -a emacs"
